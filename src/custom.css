@@ -1,0 +1,108 @@
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded border */
+    padding: 5px 10px;
+  }
+  
+  .search-input {
+    flex: 1; /* Take up remaining space */
+    border: none;
+    outline: none;
+    border-radius: 20px; /* Rounded search input */
+    padding: 5px 10px;
+  }
+  
+  
+
+  .widget-container {
+    display: flex;
+    background-color: white;
+ 
+   
+  }
+  
+  .widget {
+    position: relative;
+    flex: 1; /* Each widget will take up equal space */
+     /* Center text horizontally */
+    padding: 10px; /* Add padding for spacing */
+  }
+  .widget-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    text-align: center;
+  }
+ 
+  .card-percent {
+    align-self: flex-end; /* Align the element to the end of its container */
+    background-color: rgb(236, 240, 236); /* Set the background color to green */
+    padding: 5px 5px; /* Add some padding for better appearance */
+    color: rgb(65, 176, 85); /* Set the text color to white */
+    text-align: end;
+    border-radius: 10px; /* Set the border radius to create rounded corners */
+  
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .card-discount {
+    text-align: start;
+    text-decoration: underline red; /* Add a red line below the text */
+    text-decoration-thickness: 1px; /* Set the thickness of the underline */
+    text-decoration-skip-ink: none;  }
+  .card-row {
+    display: flex;
+    justify-content: space-between; /* Align items at the start and end of the row */
+    align-items: center; /* Align items vertically */
+  }
+
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  .image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 10px; /* Adjust the gap between images */
+  }
+  
+  .image1 {
+    grid-column: span 2; /* First image spans both columns */
+  }
+  
+  .fill{
+    width: 100%;
+    height: 100%;
+  }
+
+  .d-flex {
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Distribute cards evenly */
+    align-items: stretch; /* Stretch cards to fill container height */
+  }
+
+  .card-title {
+
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Adjust font-size and line-height as needed for your design */
+  }
