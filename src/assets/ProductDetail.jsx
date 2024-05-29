@@ -1,0 +1,14 @@
+let ProductDetail = () => {
+
+
+    return (
+        <>
+
+
+
+
+
+
+        </>
+    )
+}
